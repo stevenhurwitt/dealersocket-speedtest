@@ -149,11 +149,12 @@ def main():
     except:
         pass
 
-    with open("payload.json", "w") as f:
-        json.dumps(str(payload))
+    # with open("payload.json", "w") as f:
+    #     json.dumps(str(payload))
         # json_payload.dump(f)
 
     print("tried to write payload.json")
+    # BeautifulSoup(download, "html5lib")
     # print(soup.select_one("tspan[style*=webkit]").text)
     # start = browser.find_element_by_id("startBtn")
     # try:
